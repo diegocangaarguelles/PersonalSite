@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+            <font size="+8">Diego Canga-Arguelles</font>
+            <h1 style="font-size:400%;"><font color="red">Welcome to my site!</font></h1>
+    </header>
+    <nav>
+        <ul>
+           <a href="#"><li>Home</li></a>
+           <a href="#"><li>About</li></a>
+           <a href="#"><li>Blog</li></a>
+           <a href="#"><li>Gallery</li></a>
+           <a href="#"><li>Contact</li></a>
+        </ul>
+        <div class="handle">Menu</div>
+    </nav>
+    <section>
+            <p align="left"><strong><font size="15"><font color="blue"><br>I am a Guatemalan Informaticist with a</br>
+                    <br>concentration in Interactive Media <br>Technology. I studied at</br> UL Lafayette and</br>
+                    <br>I am passionate about software design and development!</font></font></strong></p></br>
+    </section>
+    <script>
+            $('handle').on('click',function(){
+                $('nav ul').toggleClass('showing');
+            });
+        </script>
+</body>
+</html>

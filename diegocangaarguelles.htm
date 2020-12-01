@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diego Canga-Arguelles</title>
+    <link rel="styleDiego" href="styleDiego.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        Diego Canga-Arguelles
+    </header>
+    <nav>
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Gallery</li></a>
+            <a href="#"><li>Contact</li></a>
+        </ul>
+        <div class="handle">Menu</div>
+    </nav>
+    <section>
+        Welcome to my personal webpage! Here you will find interesting information about me!
+    </section>
+    <script>
+        $('handle').on('click',function(){
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
+
+<!--<img src="pacayavolcano.jpg" alt="Pacaya Volcano" width="450" height="500"><h1 style="font-size:600%;"><font color="red">Welcome to my site!</font></h1>
+<p align="left"><strong><font size="15"><font color="blue">I am a Guatemalan Informaticist with a 
+    concentration in Interactive Media Technology. I studied at UL Lafayette and 
+    I am passionate about software design and development!</font></font></strong></p>
+<img src="pacayavolcano.jpg" alt="Pacaya Volcano" width="450" height="500">-->
+
+</body>
+</html>
